@@ -1,0 +1,112 @@
+{
+  "project_name": "",
+  "project_uuid": "",
+  "script_id": "",
+  "source_script": "",
+  "actual_shot_count": null,
+  "confirmed_product_name": "",
+  "product_refs": [],
+  "environment_checks": {
+    "libtv_project_use_done": false,
+    "target_group_confirmed": false,
+    "product_refs_bound_to_group": false,
+    "utf8_prompt_pipeline": false,
+    "no_powershell_inline_chinese_prompt": true,
+    "libtv_prompt_uses_ascii_safe_text": false
+  },
+  "stage_order": [
+    "script_input",
+    "ugc_baseline_prompt",
+    "ugc_baseline_image",
+    "storyboard_image_prompts",
+    "storyboard_images_running",
+    "storyboard_images_ready",
+    "video_prompts",
+    "videos_running",
+    "videos_ready",
+    "media_downloaded",
+    "feishu_xlsx_ready",
+    "feishu_sheet_imported",
+    "feishu_video_preview_links",
+    "accepted"
+  ],
+  "global_locks": {
+    "script_is_source_of_truth": true,
+    "each_script_row_maps_to_one_video": true,
+    "do_not_guess_product_from_previous_project": true,
+    "do_not_assume_shot_count": true,
+    "discard_outputs_with_garbled_prompt": true,
+    "one_shot_one_image": true,
+    "one_shot_one_video": true,
+    "preserve_original_voiceover": true,
+    "no_subtitles_in_video": true,
+    "video_links_use_feishu_file_preview": true,
+    "do_not_use_libtv_mp4_direct_link_for_delivery": true
+  },
+  "ugc_baseline": {
+    "status": "pending",
+    "prompt_node": "",
+    "image_node": "",
+    "image_url": "",
+    "prompt_readback_ok": false,
+    "prompt_has_question_mark_garbled_text": false,
+    "prompt_has_mojibake_text": false,
+    "checks": {
+      "same_creator_can_support_all_shots": false,
+      "product_reference_correct": false,
+      "environment_can_support_all_actions": false,
+      "not_hard_ad_packshot": false
+    }
+  },
+  "batch_gates": {
+    "can_run_storyboard_images": false,
+    "can_create_video_prompts": false,
+    "can_run_videos": false,
+    "can_export_to_feishu": false
+  },
+  "shots": [
+    {
+      "shot": 1,
+      "script_row": null,
+      "shot_size": "",
+      "camera_move": "",
+      "script_action": "",
+      "voiceover": "",
+      "target_duration": null,
+      "image_prompt": "",
+      "image_node": "",
+      "image_url": "",
+      "image_status": "pending",
+      "image_qc": {
+        "matches_script": false,
+        "creator_consistent": false,
+        "product_correct": false,
+        "scene_correct": false,
+        "no_bad_text": false
+      },
+      "video_prompt": "",
+      "video_node": "",
+      "video_url": "",
+      "video_status": "pending",
+      "video_qc": {
+        "duration_param_correct": false,
+        "action_matches": false,
+        "camera_matches": false,
+        "voiceover_timing_matches": false,
+        "no_subtitles": false,
+        "url_count_is_one": false
+      },
+      "downloaded": {
+        "image_path": "",
+        "video_path": ""
+      },
+      "feishu": {
+        "row": null,
+        "image_link": "",
+        "video_file_url": "",
+        "video_file_token": "",
+        "permission_ready": false
+      }
+    }
+  ]
+}

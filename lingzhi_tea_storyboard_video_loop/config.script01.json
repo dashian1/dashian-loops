@@ -1,0 +1,67 @@
+{
+  "project_uuid": "4bc1c28bb3754d8ca3521aa6df975130",
+  "script_id": "脚本01",
+  "source_xlsx": "E:/灵鹤芝谷素材库/灵鹤芝谷工具矩阵/outputs/灵芝茶24组_分镜图片视频流程/01_拆分脚本/脚本01/脚本01_拍摄脚本分镜_1.xlsx",
+  "output_root": "E:/灵鹤芝谷素材库/灵鹤芝谷工具矩阵/outputs/灵芝茶24组_分镜图片视频流程",
+  "feishu_sheet_name": "脚本01_拍摄脚本分镜_1_飞书整理版",
+  "sheet_name": "分镜脚本",
+  "video_link_column": "N",
+  "image_link_column": "M",
+  "nodes": [
+    {
+      "shot": 1,
+      "duration": 6,
+      "image_node": "b263b478-bbe6-49dc-95e7-bceb5aa4238d",
+      "video_node": "b3d48019-2c6c-4cd4-8f3d-6d0719337cee"
+    },
+    {
+      "shot": 2,
+      "duration": 9,
+      "image_node": "efad5e13-4b5b-4413-ad64-b6e0f96d0e88",
+      "video_node": "f283aacd-da4c-450f-9137-ed8914c2c5e1"
+    },
+    {
+      "shot": 3,
+      "duration": 4,
+      "image_node": "763bde2c-75a9-4281-ae39-622e1fe35119",
+      "video_node": "6d7a5f02-fa63-43bc-9c14-435e0cde87d2"
+    },
+    {
+      "shot": 4,
+      "duration": 5,
+      "image_node": "594eb6ef-eb7c-4a46-ad6b-7b3fc9fa2db0",
+      "video_node": "c01b62c0-f20e-4a53-8ead-3ab6560c33dd"
+    },
+    {
+      "shot": 5,
+      "duration": 8,
+      "image_node": "0383f5fe-c6cc-4cc2-b4b6-cec75ef76c06",
+      "video_node": "5e6657aa-57fb-4963-b163-1d7f4f59490f"
+    },
+    {
+      "shot": 6,
+      "duration": 4,
+      "image_node": "c6814dfd-a81f-460e-9858-7682e3380cf5",
+      "video_node": "088b3233-30f2-48b8-8235-206e40e8a4cd"
+    },
+    {
+      "shot": 7,
+      "duration": 4,
+      "image_node": "e0bdab0f-41ba-42d6-933b-b3de45336f0c",
+      "video_node": "93c7a935-357b-4a57-b10f-5501db8ffb39"
+    },
+    {
+      "shot": 8,
+      "duration": 6,
+      "image_node": "118016e0-f980-424f-9ff3-516d2d931b90",
+      "video_node": "e0f58da9-ee93-4650-b64c-1d2da47bd109"
+    },
+    {
+      "shot": 9,
+      "duration": 4,
+      "image_node": "18a38d8d-874a-49bc-9225-c96b6a57d070",
+      "video_node": "09934b3c-ebe6-47dd-936f-9d3cb6ddbdd8"
+    }
+  ]
+}
+
