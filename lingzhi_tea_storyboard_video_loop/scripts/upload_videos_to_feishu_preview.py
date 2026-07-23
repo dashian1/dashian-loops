@@ -8,8 +8,8 @@ from pathlib import Path
 
 import importlib.util
 
-RUNNER_PATH = Path(r"E:\灵鹤芝谷素材库\灵鹤芝谷工具矩阵\loops\lingzhi_tea_storyboard_video_loop\scripts\run_antioxidant_two_batch.py")
-DELIVERY_ROOT = Path(r"E:\灵鹤芝谷素材库\灵鹤芝谷工具矩阵\outputs\批量脚本视频任务_0623\delivery_by_script")
+RUNNER_PATH = Path(r"E:\大师安素材库\大师安工具矩阵\loops\lingzhi_tea_storyboard_video_loop\scripts\run_antioxidant_two_batch.py")
+DELIVERY_ROOT = Path(r"E:\大师安素材库\大师安工具矩阵\outputs\批量脚本视频任务_0623\delivery_by_script")
 LINK_STATE = DELIVERY_ROOT / "feishu_sheet_links.json"
 VIDEO_STATE = DELIVERY_ROOT / "feishu_video_file_links.json"
 FOLDER_STATE = DELIVERY_ROOT / "feishu_video_folder.json"

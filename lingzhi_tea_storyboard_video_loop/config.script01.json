@@ -1,8 +1,8 @@
 {
   "project_uuid": "4bc1c28bb3754d8ca3521aa6df975130",
   "script_id": "脚本01",
-  "source_xlsx": "E:/灵鹤芝谷素材库/灵鹤芝谷工具矩阵/outputs/灵芝茶24组_分镜图片视频流程/01_拆分脚本/脚本01/脚本01_拍摄脚本分镜_1.xlsx",
-  "output_root": "E:/灵鹤芝谷素材库/灵鹤芝谷工具矩阵/outputs/灵芝茶24组_分镜图片视频流程",
+  "source_xlsx": "E:/大师安素材库/大师安工具矩阵/outputs/灵芝茶24组_分镜图片视频流程/01_拆分脚本/脚本01/脚本01_拍摄脚本分镜_1.xlsx",
+  "output_root": "E:/大师安素材库/大师安工具矩阵/outputs/灵芝茶24组_分镜图片视频流程",
   "feishu_sheet_name": "脚本01_拍摄脚本分镜_1_飞书整理版",
   "sheet_name": "分镜脚本",
   "video_link_column": "N",

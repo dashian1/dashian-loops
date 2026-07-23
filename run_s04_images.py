@@ -3,7 +3,7 @@ import subprocess, json, time
 LIBTV = r"C:\Users\gba\.libtv\libtv.exe"
 P = "4bc1c28bb3754d8ca3521aa6df975130"
 
-with open(r"E:\灵鹤芝谷素材库\灵鹤芝谷工具矩阵\outputs\script04_image_nodes.json", encoding="utf-8") as f:
+with open(r"E:\大师安素材库\大师安工具矩阵\outputs\script04_image_nodes.json", encoding="utf-8") as f:
     config = json.load(f)
 
 nodes = config["image_nodes"]

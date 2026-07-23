@@ -10,8 +10,8 @@ from pathlib import Path
 import requests
 
 
-RUNNER_PATH = Path(r"E:\灵鹤芝谷素材库\灵鹤芝谷工具矩阵\loops\lingzhi_tea_storyboard_video_loop\scripts\run_antioxidant_two_batch.py")
-DELIVERY_ROOT = Path(r"E:\灵鹤芝谷素材库\灵鹤芝谷工具矩阵\outputs\批量脚本视频任务_0623\delivery_by_script")
+RUNNER_PATH = Path(r"E:\大师安素材库\大师安工具矩阵\loops\lingzhi_tea_storyboard_video_loop\scripts\run_antioxidant_two_batch.py")
+DELIVERY_ROOT = Path(r"E:\大师安素材库\大师安工具矩阵\outputs\批量脚本视频任务_0623\delivery_by_script")
 API_BASE = "https://xyq.jianying.com/api/biz/v1"
 VIDEO_MODEL = "seedance2.0_fast_vision"
 

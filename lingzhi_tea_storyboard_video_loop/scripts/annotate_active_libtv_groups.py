@@ -6,7 +6,7 @@ from pathlib import Path
 
 LIBTV = r"C:\Users\gba\.libtv\libtv.exe"
 PROJECT_UUID = "4bc1c28bb3754d8ca3521aa6df975130"
-RUNNER_PATH = Path(r"E:\灵鹤芝谷素材库\灵鹤芝谷工具矩阵\loops\lingzhi_tea_storyboard_video_loop\scripts\run_antioxidant_two_batch.py")
+RUNNER_PATH = Path(r"E:\大师安素材库\大师安工具矩阵\loops\lingzhi_tea_storyboard_video_loop\scripts\run_antioxidant_two_batch.py")
 
 spec = importlib.util.spec_from_file_location("runner", RUNNER_PATH)
 runner = importlib.util.module_from_spec(spec)

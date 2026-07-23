@@ -81,6 +81,6 @@ print(f"\nCreated {len(created)}/{len(shots)} nodes")
 config = {"project_uuid": P, "script_id": "脚本04",
           "ugc_base": UGC_BASE, "product_refs": PRODUCT_REFS,
           "image_nodes": created}
-with open(r"E:\灵鹤芝谷素材库\灵鹤芝谷工具矩阵\outputs\script04_image_nodes.json", "w", encoding="utf-8") as f:
+with open(r"E:\大师安素材库\大师安工具矩阵\outputs\script04_image_nodes.json", "w", encoding="utf-8") as f:
     json.dump(config, f, ensure_ascii=False, indent=2)
 print("Config saved.")

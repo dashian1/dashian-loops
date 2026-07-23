@@ -15,6 +15,6 @@ for i in range(1, 14):
         err = r.stderr.decode("utf-8", errors="replace")[:200]
         print(f"Shot {i}: FAIL - {err}")
 
-with open(r"E:\灵鹤芝谷素材库\灵鹤芝谷工具矩阵\outputs\script04_keys.json", "w", encoding="utf-8") as f:
+with open(r"E:\大师安素材库\大师安工具矩阵\outputs\script04_keys.json", "w", encoding="utf-8") as f:
     json.dump(keys, f, ensure_ascii=False, indent=2)
 print(f"Saved {len(keys)} keys")

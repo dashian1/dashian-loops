@@ -5,7 +5,7 @@ from pathlib import Path
 
 LIBTV = r"C:\Users\gba\.libtv\libtv.exe"
 PROJECT_UUID = "4bc1c28bb3754d8ca3521aa6df975130"
-STATE_PATH = Path(r"E:\灵鹤芝谷素材库\灵鹤芝谷工具矩阵\outputs\批量脚本视频任务_0623\antioxidant_two_run_state.json")
+STATE_PATH = Path(r"E:\大师安素材库\大师安工具矩阵\outputs\批量脚本视频任务_0623\antioxidant_two_run_state.json")
 
 
 MASTER_GROUP = "00_总控_当前工作台_0629"
