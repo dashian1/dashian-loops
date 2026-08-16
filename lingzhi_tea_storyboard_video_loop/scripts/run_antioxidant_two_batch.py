@@ -10,7 +10,7 @@ from pathlib import Path
 import openpyxl
 
 
-LIBTV = r"C:\Users\gba\.libtv\libtv.exe"
+LIBTV = r"%USERPROFILE%\.libtv\libtv.exe"
 PROJECT_UUID = "4bc1c28bb3754d8ca3521aa6df975130"
 STATE_PATH = Path(r"E:\大师安素材库\大师安工具矩阵\outputs\批量脚本视频任务_0623\antioxidant_two_run_state.json")
 DYNAMIC_TASKS_PATH = Path(r"E:\大师安素材库\大师安工具矩阵\outputs\批量脚本视频任务_0623\legacy_dynamic_tasks.json")
@@ -21,7 +21,7 @@ STATE_LOCK = threading.Lock()
 
 TASKS = {
     "antioxidant1": {
-        "source_xlsx": "C:\\Users\\gba\\Downloads\\\u65b0\u7075\u829d\u8336\u62cd\u6444\u811a\u672c\u5206\u955c-\u6297\u6c27\u5316-1.xlsx",
+        "source_xlsx": "%USERPROFILE%\\Downloads\\\u65b0\u7075\u829d\u8336\u62cd\u6444\u811a\u672c\u5206\u955c-\u6297\u6c27\u5316-1.xlsx",
         "group_id": "fa89695d-9bff-488c-91f8-c4d3514ac649",
         "baseline": "efc70b18-35a9-4ff4-ba59-95dc4c4dfbbe",
         "product_refs": [
@@ -31,7 +31,7 @@ TASKS = {
         ],
     },
     "antioxidant4": {
-        "source_xlsx": "C:\\Users\\gba\\Downloads\\\u65b0\u7075\u829d\u8336\u62cd\u6444\u811a\u672c\u5206\u955c-\u6297\u6c27\u5316-4.xlsx",
+        "source_xlsx": "%USERPROFILE%\\Downloads\\\u65b0\u7075\u829d\u8336\u62cd\u6444\u811a\u672c\u5206\u955c-\u6297\u6c27\u5316-4.xlsx",
         "group_id": "17493ee7-697a-4a73-9eb4-059b7243c91e",
         "baseline": "671d10ae-e2c3-4d56-90ee-97498e259618",
         "product_refs": [

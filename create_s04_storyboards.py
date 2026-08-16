@@ -1,7 +1,7 @@
 """抗氧化-4: 重建13个分镜图节点 — 正确model/比例/连线/位置"""
 import subprocess, json
 
-LIBTV = r"C:\Users\gba\.libtv\libtv.exe"
+LIBTV = r"%USERPROFILE%\.libtv\libtv.exe"
 P = "4bc1c28bb3754d8ca3521aa6df975130"
 
 # 产品参考(4个) + UGC基准

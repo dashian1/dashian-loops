@@ -3,7 +3,7 @@ import subprocess
 from pathlib import Path
 
 
-LIBTV = r"C:\Users\gba\.libtv\libtv.exe"
+LIBTV = r"%USERPROFILE%\.libtv\libtv.exe"
 PROJECT_UUID = "4bc1c28bb3754d8ca3521aa6df975130"
 STATE_PATH = Path(r"E:\大师安素材库\大师安工具矩阵\outputs\批量脚本视频任务_0623\antioxidant_two_run_state.json")
 

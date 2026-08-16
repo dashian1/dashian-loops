@@ -1,6 +1,6 @@
 import subprocess, json
 
-LIBTV = r"C:\Users\gba\.libtv\libtv.exe"
+LIBTV = r"%USERPROFILE%\.libtv\libtv.exe"
 P = "4bc1c28bb3754d8ca3521aa6df975130"
 
 # Check existing script01 image node for full config

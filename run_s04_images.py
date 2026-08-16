@@ -1,6 +1,6 @@
 import subprocess, json, time
 
-LIBTV = r"C:\Users\gba\.libtv\libtv.exe"
+LIBTV = r"%USERPROFILE%\.libtv\libtv.exe"
 P = "4bc1c28bb3754d8ca3521aa6df975130"
 
 with open(r"E:\大师安素材库\大师安工具矩阵\outputs\script04_image_nodes.json", encoding="utf-8") as f:

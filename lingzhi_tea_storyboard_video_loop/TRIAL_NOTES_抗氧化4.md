@@ -5,7 +5,7 @@
 输入文件：
 
 ```text
-C:\Users\gba\Downloads\新灵芝茶拍摄脚本分镜-抗氧化-4.xlsx
+%USERPROFILE%\Downloads\新灵芝茶拍摄脚本分镜-抗氧化-4.xlsx
 ```
 
 正确产品：

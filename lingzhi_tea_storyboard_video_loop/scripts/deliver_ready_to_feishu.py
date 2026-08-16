@@ -14,7 +14,7 @@ from openpyxl.utils import get_column_letter
 RUNNER_PATH = Path(r"E:\大师安素材库\大师安工具矩阵\loops\lingzhi_tea_storyboard_video_loop\scripts\run_antioxidant_two_batch.py")
 DELIVERY_ROOT = Path(r"E:\大师安素材库\大师安工具矩阵\outputs\批量脚本视频任务_0623\delivery_by_script")
 LINK_STATE = DELIVERY_ROOT / "feishu_sheet_links.json"
-LARK_CLI = r"C:\Users\gba\.workbuddy\binaries\node\versions\22.22.2\lark-cli.cmd"
+LARK_CLI = r"%USERPROFILE%\.workbuddy\binaries\node\versions\22.22.2\lark-cli.cmd"
 
 spec = importlib.util.spec_from_file_location("runner", RUNNER_PATH)
 runner = importlib.util.module_from_spec(spec)

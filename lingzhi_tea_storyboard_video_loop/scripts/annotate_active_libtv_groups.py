@@ -4,7 +4,7 @@ import subprocess
 from pathlib import Path
 
 
-LIBTV = r"C:\Users\gba\.libtv\libtv.exe"
+LIBTV = r"%USERPROFILE%\.libtv\libtv.exe"
 PROJECT_UUID = "4bc1c28bb3754d8ca3521aa6df975130"
 RUNNER_PATH = Path(r"E:\大师安素材库\大师安工具矩阵\loops\lingzhi_tea_storyboard_video_loop\scripts\run_antioxidant_two_batch.py")
 

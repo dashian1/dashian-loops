@@ -13,7 +13,7 @@ DELIVERY_ROOT = Path(r"E:\大师安素材库\大师安工具矩阵\outputs\批�
 LINK_STATE = DELIVERY_ROOT / "feishu_sheet_links.json"
 VIDEO_STATE = DELIVERY_ROOT / "feishu_video_file_links.json"
 FOLDER_STATE = DELIVERY_ROOT / "feishu_video_folder.json"
-LARK_CLI = r"C:\Users\gba\.workbuddy\binaries\node\versions\22.22.2\lark-cli.cmd"
+LARK_CLI = r"%USERPROFILE%\.workbuddy\binaries\node\versions\22.22.2\lark-cli.cmd"
 
 spec = importlib.util.spec_from_file_location("runner", RUNNER_PATH)
 runner = importlib.util.module_from_spec(spec)
